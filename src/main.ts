@@ -8,8 +8,8 @@ async function bootstrap() {
     {
       transport: Transport.RMQ,
       options: {
-        urls: ['amqps://rvsuu:5yxssjygsdtpJvR93IEqjhTu8Ki5@goose.rmq.cloudamqp.org/vnuw'],
-        queue: 'main_queue',
+        urls: ['amqps://rvh:5yxssjy@goose.rmq.cloudamqp.org/vmh'],
+        queue: 'queue',
         queueOptions: {
           durable: false
         },
