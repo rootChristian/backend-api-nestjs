@@ -7,7 +7,7 @@ import { UserModule } from './user/user.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      `mongodb+srv://${process.env.DB_USER}:${process.env.DB_USER_PASS}@unipr.g2qmr.mongodb.net/${process.env.DATABASE}?retryWrites=true&w=majority` 
+      `mongodb://${process.env.DB_USER}:${process.env.DB_USER_PASS}@g2qmr.mongodb.net/${process.env.DATABASE}?retryWrites=true&w=majority` 
     ),
     ProductModule,
     UserModule,
