@@ -1,6 +1,6 @@
 <h1 align="center" color="red">
   RUN COMMAND:
- - docker-compose up --build 
+ <\br> docker-compose up --build 
 </h1>
 
 <p align="center">
