@@ -1,16 +1,11 @@
 <h1 align="center" color="red">
-  RUN COMMAND:
-  <hr>
- ```bash
-$ docker-compose up --build 
-``` 
-</h1>
-
 ## RUN COMMAND
 
 ```bash
-$ npm install
+$ docker-compose up --build
 ```
+
+</h1>
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
